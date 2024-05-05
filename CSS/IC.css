@@ -1,0 +1,89 @@
+
+/*
+
+*/
+body.Cuerpo{
+    background-image: url("../media/fondo2.jpg");
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat: no-repeat;
+	/* Cambiar el tamaño de fondo */
+	background-size: 100%;
+	/* Ancho del contenido de la pagina */
+	width: 95%;
+	/* Margen alrededor del contenido */
+	margin: auto;
+}
+
+h1.TituloPagina{
+	color:white;
+    text-align: center;
+    font-family: "Zen Dots";
+    font-size: 400%;
+    text-shadow: 
+        -2px -2px 0 black,  
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+h4.FraseAbsurda{
+	color:white;
+    text-align: center;
+    font-family: "Zen Dots";
+    font-size: 150%;
+    text-shadow: 
+        -2px -2px 0 black,  
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+h2.texto1{
+	color:deepskyblue;
+    text-align: center;
+    font-family: "Sriracha";
+    font-size: 200%;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+button.Alimentar{
+	background-color: black;
+	border-radius: 10px;
+	border-color: white;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Metal Mania";
+	margin: 4px 2px;
+	cursor: pointer;
+}
+div.CuerpoP{
+	text-align: center;
+}
+
+img.ImagenTitulo{
+	content: url("../media/pez.gif");
+	/* Cambiar el tamaño del borde de la imagen */
+	border-radius: 5%;
+	/* Cambiamos el tamaño */
+	width: 100px;
+	height: 100px;
+	/* Alineacion vertical */
+	vertical-align: middle;
+}
+
+img.Patricio{
+	content: url("../media/patriciofelih.jpg");
+	/* Cambiar el tamaño del borde de la imagen */
+	border-radius: 5%;
+	/* Cambiamos el tamaño */
+	width: 200px;
+	height: 200px;
+	/* Alineacion vertical */
+	vertical-align: middle;
+}

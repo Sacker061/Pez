@@ -9,7 +9,7 @@ function moveServo(position) {
     var data = { access_token: token, args: position };
 
     // Realizar la solicitud POST al dispositivo Particle para cambiar la posición del servo
-    fetch('https://api.particle.io/v1/devices/380035000c47343438323536/servoPosition?access_token=9868060f7b798b0ed656c19e50c73bcc67d6a89b', {
+    fetch('https://api.particle.io/v1/devices/380035000c47343438323536/servoPosition?access_token=08bcf79d8849b0a915f3dc12f0ceaf6a0089e473', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

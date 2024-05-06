@@ -5,11 +5,11 @@ var lastButtonState=false;
 
 // Función para mover el servo a una posición específica
 function moveServo(position) {
-    // Construir el cuerpo de la solicitud POST para mover el servo
+    // Construir el cuerpo de la solicitud POST para cambiar la posición del servo
     var data = { access_token: token, args: position };
 
-    // Realizar la solicitud POST al dispositivo Particle para mover el servo
-    fetch('https://api.particle.io/v1/devices/' + deviceID + '/servoM', {
+    // Realizar la solicitud POST al dispositivo Particle para cambiar la posición del servo
+    fetch('https://api.particle.io/v1/devices/' + deviceID + '/servoPosition', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -24,7 +24,6 @@ function moveServo(position) {
         console.error('Error setting servo position:', error);
     });
 }
-
 
 // Función para enviar el comando al servo cuando se presiona el botón "Alimentar"
 function alimentarPatricio() {

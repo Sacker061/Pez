@@ -2,17 +2,27 @@
 /*
 
 */
-body.Cuerpo{
+body.Cuerpo {
     background-image: url("../media/fondo2.jpg");
-	background-attachment: fixed;
-	/* Que el fondo no se repita */
-	background-repeat: no-repeat;
-	/* Cambiar el tamaño de fondo */
-	background-size: 100%;
-	/* Ancho del contenido de la pagina */
-	width: 95%;
-	/* Margen alrededor del contenido */
-	margin: auto;
+    background-attachment: fixed;
+    /* Que el fondo no se repita */
+    background-repeat: no-repeat;
+    /* Cambiar el tamaño de fondo */
+    background-size: cover;
+    /* Ancho del contenido de la página */
+    width: 95%;
+    /* Margen alrededor del contenido */
+    margin: auto;
+}
+
+/* Media query para teléfonos */
+@media (max-width: 768px) {
+    body.Cuerpo {
+        /* Cambiar el tamaño de fondo para que se ajuste al ancho del dispositivo */
+        background-size: 100%;
+        /* Ajustar el margen para que el contenido se centre en la pantalla */
+        margin: 0;
+    }
 }
 
 h1.TituloPagina{
